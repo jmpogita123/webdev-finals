@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(gym2.jpg);
+    background-size: cover;
+    font-size: 20px;
+
+
+}
+
+form {
+    background-color: rgba(16, 16, 16, 0.87);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 900px;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+h4 {
+    font-size: 1.2em;
+    margin: 10px 0 5px 0;
+    color: white;
+}
+
+p {
+    font-size: 0.9em;
+    margin: 0 0 10px 0;
+    color: #f8f5f5b5;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    font-size: 1em;
+}
+
+input[type="submit"]:hover {
+    background-color: #400d03;
+}
