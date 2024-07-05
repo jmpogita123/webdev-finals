@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa;
+    background-image: url(gym1.jpg);
+    background-size: cover;
+}
+
+h1, h3 {
+    color: #070707;
+    font-size: 50px;
+    font-weight: 1000;
+}
+
+a {
+    font-size: 20px;
+    color: #007bff;
+    position: absolute;
+    right: 100px;
+    background-color: #400d03;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 80%; /* Adjust the width as needed */
+    border-collapse: collapse;
+    margin: 0 auto 10px auto; /* Center the table */
+}
+
+table, th, td {
+    border: 2px solid #070707;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    font-weight: 600;
+}
+
+th {
+    background-color: #400d03;
+    color: white;
+    font-weight: 100;
+}
+
+form {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+input[type="number"], input[type="submit"] {
+    margin: 5px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;   
+    border-width: 0px;
+    background-color: #f8f9fa68;
+}
+
+input[type="submit"] {
+    font-size: 20px;
+    background-color: #400d03;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #400d03;
+}
+
+.container {
+    background-color: #f8f9fa92;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 10px;
+}
