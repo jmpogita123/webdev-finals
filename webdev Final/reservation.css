@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(gym1.jpg);
+    background-size: cover;
+}
+form {
+    width: 100%;
+    max-width: 800px;
+    background-color: #ffffffb2;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: 800;
+}
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 800;
+}
+div {
+    margin-bottom: 15px;
+}
+span {
+    margin-right: 10px;
+    font-size: 16px;
+}
+input[type="radio"], input[type="number"], input[type="date"], input[type="submit"], a {
+    margin: 5px;
+    padding: 12px;
+    font-size: 18px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    width: auto;
+}
+input[type="submit"], a {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 18px;
+
+}
+input[type="submit"]:hover, a:hover {
+    background-color: #400d03;
+}
+ 
+a{
+    position: absolute;
+    right: 350px;
+}
